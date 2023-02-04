@@ -18,4 +18,5 @@ Belgium1 = "Belgium:10445852:Brussels:737966:Europe:1830:Euro:Catholicism:Dutch:
 parts = Belgium1.split(':')
 # created a new variable, converted parts 1 and 3 into integers and added them together
 combined_pop = int(parts[1]) + int(parts[3])
+# printed the sum
 print(combined_pop)
